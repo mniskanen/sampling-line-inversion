@@ -1,0 +1,6 @@
+# This file enables us to track this folder but not its contents
+*
+!/figures/
+!/MCMC/
+!.gitignore
+!example_PSD.png
