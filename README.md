@@ -11,7 +11,7 @@ Installing
 ---
 SLIC is a collection of Python modules that only need their dependencies installed to work. This code has been tested in a [conda](https://docs.anaconda.com/miniconda/) environment using the [Spyder](https://www.spyder-ide.org/) IDE. Should work elsewhere, too. First, clone (or download) the repository from github:
 ```
-git clone https://github.com/mniskanen/SLIC
+git clone https://github.com/mniskanen/sampling-line-inversion.git
 ```
  and then install the required packages:
 ```
