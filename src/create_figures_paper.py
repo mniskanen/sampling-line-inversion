@@ -420,7 +420,7 @@ n_measurements = idx_measurement.shape[0]
 timevec = np.arange(0, n_measurements + 1) / 60  # In minutes
 
 # Do the inversion
-result = invert_AH_GN(idx_measurement, show_output=True)
+result = invert_AH_GN(idx_measurement, show_output=False)
 result = 10**result  # To absolute scale
 
 binwidth = 1 / 16
