@@ -222,9 +222,7 @@ if PLOT_MCMC_RESULTS:
         return c1, c2, bbox_patch1, bbox_patch2, p
     
     
-    resuts_folder = '../results/Jun11/'
-    sampler = load_run(resuts_folder, 'aux0_simulated')
-    # sampler = load_run(RESULTS_FOLDER, 'true_aux_simulated')
+    sampler = load_run(RESULTS_FOLDER, 'true_aux_simulated')
     sampler.summarise_posterior(ax=axs["PSD"])
     
     sizebin = 0
